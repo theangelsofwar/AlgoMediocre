@@ -4,6 +4,11 @@
 > Algorithms Forums
 An Algo A Day keeps the Headaches at Bay
 
+
+
+>An Algorithms Progressive Web App
+> Offline capabilities, loading in the background
+
 ---
 
 - Feature 1
@@ -14,13 +19,13 @@ An Algo A Day keeps the Headaches at Bay
 This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [Node.js](https://nodejs.org).
 
 ```bash
-npm install CodeCaine --save
+npm install codecaine --save
 ```
 
 OR
 
 ```bash
-npm install CodeCaine --save-dev
+npm install codecaine --save-dev
 ```
 
 ## Usage
@@ -52,7 +57,7 @@ To all [contributors](https://github.com/angiechangpagne/CodeCaine/graphs/contri
 
 ## License
 
-Open-source under [MIT License](https://github.com/angiechangpagne/CodeCaine/blob/master/LICENSE).
+Open-source under [MIT License](https://github.com/CelestialDevelopment/CodeCaine/blob/master/LICENSE).
 
 ## FAQ
 
@@ -69,11 +74,11 @@ Open-source under [MIT License](https://github.com/angiechangpagne/CodeCaine/blo
 
 ### Uh oh, something went wrong!
 
-Sorry about that. Please submit a bug report using the [GitHub issue tracker](https://github.com/angiechangpagne/CodeCaine/issues).
+Sorry about that. Please submit a bug report using the [GitHub issue tracker](https://github.com/CelestialDevelopment/CodeCaine/issues).
 
 ### I wish something was different…
 
-Keen to hear all ideas! Create an enhancement request using the [GitHub issue tracker](https://github.com/angiechangpagne/CodeCaine/issues).
+Keen to hear all ideas! Create an enhancement request using the [GitHub issue tracker](https://github.com/CelestialDevelopment/CodeCaine/issues).
 
 ### Can I contribute code?
 
@@ -81,4 +86,4 @@ Yes please! See [DEVELOPING.md](./DEVELOPING.md).
 
 ### My question isn't answered :(
 
-Ask away using the [GitHub issue tracker](https://github.com/angiechangpagne/CodeCaine/issues).
+Ask away using the [GitHub issue tracker](https://github.com/CelestialDevelopment/CodeCaine/issues).
