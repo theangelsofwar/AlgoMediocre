@@ -1,8 +1,8 @@
 ---
-title: "First in Golang"
+title: "Becoming the E-Leet
 date: "2019-11-13"
 category: "BackEnd"
-cover: "/images/1.webp"
+cover: ""
 tags:
   - golang
 ---

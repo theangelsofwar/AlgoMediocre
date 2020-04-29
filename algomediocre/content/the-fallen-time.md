@@ -1,6 +1,6 @@
 ---
 title: "The Fallen Time"
-cover: "/images/7.webp"
+cover: ""
 date: "2017-02-01"
 category: "another one"
 tags:

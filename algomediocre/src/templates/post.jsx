@@ -51,7 +51,7 @@ const Post = ({ data, pageContext }) => {
   const Disqus = loadable(() => import('../components/disqus'));
   return (
     <Layout>
-      <SEO title={title} description={excerpt} image={cover.publicURL} path={slug} articleDate={date} />
+      <SEO title={title} description={excerpt} image="" path={slug} articleDate={date} />
       <PostText category={category} date={date} timeToRead={timeToRead} wrapClass="post-head" head={title}>
         <PostTags tags={tags} />
       </PostText>

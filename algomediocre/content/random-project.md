@@ -1,13 +1,17 @@
 ---
 title: "Random project 4 With Super Long Title Phase One"
-cover: "/images/4.webp"
+cover: ""
 category: "random"
 date: "2017-03-02"
 tags:
   - say hi
 ---
 
-# Artificem honorati ore temperat Lycus quam antiquum
+# Code Jokes
+
+What did the the stack say to the queue?
+
+"Go Array"
 
 ## Mendaci pinu ipsi nunc
 

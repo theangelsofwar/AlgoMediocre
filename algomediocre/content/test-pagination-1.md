@@ -1,13 +1,13 @@
 ---
-title: "Test Pagination 1"
+title: "Testing your Patience"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: "/images/1.webp"
+cover: ""
 tags:
   - test
 ---
 
-# Quanto et ius coniunctis urbes
+# You're angry because you're not woke. -Yve Vestal Titan 
 
 ## Sedisti civiliter
 

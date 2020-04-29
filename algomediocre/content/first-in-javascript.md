@@ -2,14 +2,15 @@
 title: "First in JavaScript"
 date: "2019-11-11"
 category: "FrontEnd"
-cover: "/images/3.webp"
+cover: ""
 tags:
   - javascript
+  - becoming a machine
 ---
 
-# Quanto et ius coniunctis urbes
+# How to Make Power Moves
 
-## Sedisti civiliter
+## How to become a Machine
 
 Lorem **markdownum** Ixione palus **semper peritura barbaque** in aureus
 obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus

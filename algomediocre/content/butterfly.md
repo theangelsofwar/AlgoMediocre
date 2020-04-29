@@ -1,6 +1,6 @@
 ---
 title: "The Butterfly of the Edge"
-cover: "/images/2.webp"
+cover: ""
 category: "tech"
 date: "2017-03-17"
 tags:
