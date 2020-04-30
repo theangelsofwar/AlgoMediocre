@@ -15,7 +15,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: `/archives${slug}`,
+      value: `/savage${slug}`,
     });
   }
 };

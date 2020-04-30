@@ -31,8 +31,8 @@ const Archives = ({ data }) => {
   postList = postList.reverse();
   return (
     <Layout>
-      <SEO title="Archives" path="/archives" />
-      <h1 className="text-center">Archives</h1>
+      <SEO title="AireFeed" path="/savage" />
+      <h1 className="text-center">AireFeed</h1>
       <hr />
       <PostShortList data={postList} />
     </Layout>

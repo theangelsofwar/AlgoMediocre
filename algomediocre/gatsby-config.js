@@ -9,7 +9,7 @@ module.exports = {
     siteTitleAlt: config.siteTitleAlt,
     title: config.siteTitle,
     description: config.siteDescription,
-    image: `${config.siteUrl}${config.pathPrefix}/favicons/logo.png`,
+    image: `${config.siteUrl}${config.pathPrefix}/images/angel-lines.jpg`,
     datePublished: config.datePublished,
     copyrightYear: config.copyrightYear,
     twitterUsername: config.twitterUserName,
@@ -87,12 +87,12 @@ module.exports = {
         icon: config.siteLogo,
         icons: [
           {
-            src: `favicons/logo-192x192.png`,
+            src: `images/angel-lines.jpg`,
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: `favicons/logo-512x512.png`,
+            src: `images/angel-lines.jpg`,
             sizes: '512x512',
             type: 'image/png',
           },

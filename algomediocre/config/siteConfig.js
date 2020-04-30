@@ -5,12 +5,12 @@ const config = {
   siteTitleAlt: 'AlgoMediocre', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'A decentralized Algorithms, System Design Blog for the E-Leet', // Website description used for RSS feeds/meta description tag.
-  siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
-  siteUrl: 'https://gatsby-starter-papan01.netlify.com', // Domain of your website without pathPrefix.
+  siteLogo: 'static/images/angel-lines.jpg', // Logo used for manifest.
+  siteUrl: 'http://code-caine.io', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteFBAppID: '162042496', // FB Application ID for using app insights
-  siteGATrackingID: '162042496', // Tracking code ID for google analytics.
+  siteFBAppID: '', // FB Application ID for using app insights
+  siteGATrackingID: '', // Tracking code ID for google analytics.
   disqusShortname: 'AlgoMediocre', // Disqus shortname.
   twitterUserName: 'angiechangpagne', // twitter creator for SEO
   datePublished: '2020-01-01', // for SEO
@@ -42,8 +42,8 @@ const config = {
   // Links to pages you want to display in the navigation bar.
   navbarLinks: [
     {
-      label: 'Archives',
-      url: '/archives',
+      label: 'AireFeed',
+      url: '/savage',
       iconClassName: 'fa fa-book-open',
     },
     {

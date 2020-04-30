@@ -1,6 +1,6 @@
 ---
 title: "Graphs"
-cover: ""
+cover: /images/venice1.jpg
 category: "graphs"
 date: "2020-04-26"
 tags:
@@ -28,7 +28,7 @@ BFS:
 - use a Queue
 A Tree: an acyclic connected graph with N nodes, N-1 edges, any two vertices have only 1 path
 
-Tree DFS - use a stack
+Tree DFS - use a stack(vertical traversal)
 
 1. Post order: left, right, root
 2. Inorder: left, root, right
@@ -36,7 +36,7 @@ Tree DFS - use a stack
 
 Tree BFS:
 1. Level Order traversal
-- use a queue
+- use a queue(horizontal traversal)
 
 
 ## The Magic Spell for DFS
@@ -51,7 +51,7 @@ The DFS Spell:
 
 ## Pre-Order Traversal
 
-Leet # 44 preorder 
+Leet # 144 preorder 
 
 ```js
 /**
@@ -78,24 +78,70 @@ const preorderTraversal = (root) => {
 
 ```
 
+## Number Connected Components in Undirected Graph
+
+Leet #323
+
+Use the Spell for DFS/BFS
+
+Use with adjacency lists
+
+```js
+/** 
+ * @param n components number
+ * @param edges array
+ * @param start Node on graph
+*/
+const numberConnectedComponents = (n, start, edges) => {
+  const visited = {}; //visiting statue, mappings for node i to true/false
+  const adjList = [start,0];
+
+  const stack = []; //dfs stack
+  const result = 0;
+
+  //build an adjacency list/matrix
+  for(let i = 0; i < edges.length; i++) {
+    const edge = edges[i]; //the edges on the current start node
+    const from = edge.first;
+    const to = edge.second;
+
+    adjList[from].push_back(to);
+    adjList[to].push_back(from);
+  }
+
+  //dfs on nodes to look for connected components
+  for(let i = 0; i < n; i++) {
+    if(!visited[i]) {
+      result++;
+      stack.push(i); //the node i on collection of nodes n
+
+      while(stack.length) {
+        const currentNode = stack.pop();
+        visited[currentNode] = true;
+
+        for(neighbor : adjList[currentNode]) {
+          if(!visited[neighbor]) {
+            stack.push(neighbor);
+          }
+        }
+      }
+    }
+  }
+  return result;
+}
+
+```
+
+## Number of Islands
+Leet # 200
+
+```js
+
+```
 
 ## Sometimes you need to be a little psycho to get what you want.
 
-Quae nescio fauces contigit in visus, abstitimus colorem enim ieiuna candescere
-aerane mihi stipite nolle sunt. Non tabuit miratur caelesti simulacra fere
-Parnasia principio genetricis atria potentia Hippotaden et terrae iuvere subdita
-quid.
 
-## Moderatus fluctibus mitibus
-
-Ille non revelli o dignare, scelus, loqui Solis quid flebam! Terras in Ixione
-temeraria Orphea pectora. Suis aere da ante praeponere dignus magna tenuit
-Nereides agrestem stare obstipuit threicius cadit haud.
-
-- Iam legebantur inter tum sensit enim similis
-- Vite ferus purpureum videt quo inferius dextra
-- Adsiluit iuvenes eduxit uno velle bene mora
-- Dilectaque aetatis interitura feritate
 
 The future is distrbuted among the "Humans." 
-[Alemoniden](http://et.net/) matre decusque vade memor laberis, potentem?
+[YveVestalTitan](https://angiechangpagne.com) 

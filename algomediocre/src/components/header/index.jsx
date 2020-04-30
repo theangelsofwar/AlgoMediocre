@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import ThemeContext from '../../context';
-import Logo from '../../../static/favicons/logo.png';
+import Logo from '../../../static/images/celestialDevelopment.jpg';
 import Dark from '../../../static/material/moon.png';
 import Light from '../../../static/material/sun.png';
 import config from '../../../config/siteConfig';
