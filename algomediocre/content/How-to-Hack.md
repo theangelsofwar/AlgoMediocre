@@ -1,5 +1,5 @@
 ---
-title: "Test Pagination 7"
+title: "How to Hack Wifi Passwords"
 date: "2018-11-09"
 category: "FrontEnd"
 cover:
@@ -7,7 +7,7 @@ tags:
   - test
 ---
 
-# Quanto et ius coniunctis urbes
+# How to Hack the Wifi Password
 
 ## Sedisti civiliter
 
