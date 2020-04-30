@@ -1,5 +1,5 @@
 ---
-title: "Becoming the E-Leet
+title: "Becoming the E-Leet"
 date: "2019-11-13"
 category: "BackEnd"
 cover: ""

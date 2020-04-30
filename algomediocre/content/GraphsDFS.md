@@ -1,7 +1,7 @@
 ---
 title: "Graphs"
 cover: /images/venice1.jpg
-category: "graphs"
+category: graphs
 date: "2020-04-26"
 tags:
   - algorithms
@@ -133,7 +133,73 @@ const numberConnectedComponents = (n, start, edges) => {
 ```
 
 ## Number of Islands
+
 Leet # 200
+
+Number of connected components in an undirected graph but with a twist. 
+
+A 1 initiates a grouping of island
+
+We can mutate the grid
+
+```js
+/**
+ * @param {character[][]} grid
+ * @return {number}
+ */
+var numIslands = function(grid) {
+  const m = grid.length;
+  const n = grid[0].length;
+  var total = 0;
+  
+  const processIsland = (i, j) => {
+    
+    if (j < 0 || j >= n || i < 0 || i >= m || grid[i][j] !== 1){
+      return;
+    }
+    else {
+      
+      grid[i][j] = 0;
+
+      if (i > 0 && grid[i - 1][j]) {
+        processIsland(i - 1, j);
+      }
+      if (i < m - 1 && grid[i + 1][j]) {
+        processIsland(i + 1, j);
+      }
+      if (j > 0 && grid[i][j - 1]) {
+        processIsland(i, j - 1);
+      }
+      if (j < n - 1 && grid[i][j + 1]) {
+        processIsland(i, j + 1);
+      }
+    
+      // processIsland(i+1, j);
+      // processIsland(i-1, j);
+      // processIsland(i, j+1);
+      // processIsland(i, j-1);
+    }
+
+  };
+  
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
+      if (grid[i][j] === 1) {
+        total++;
+        processIsland(i, j);
+      }
+    }
+  }
+  
+  return total;
+};
+
+```
+
+
+## Friend Circles
+
+Leet #547
 
 ```js
 
