@@ -2,7 +2,7 @@
 title: "First in React"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: ""
+cover:
 tags:
   - react
 ---

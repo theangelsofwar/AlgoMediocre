@@ -1,8 +1,8 @@
 ---
-title: Testing in netlify cms
-date: 2019-12-20T07:43:00.476Z
+title: "Testing"
+date: "2020-04-01"
 cover: /images/angel-lines.jpg
-category: netlify-cms
+category: ""
 tags:
   - CMS
   - Gatsby
@@ -12,4 +12,3 @@ tags:
 def main():
     print('Hello World')
 ```
-See You Next Time😁😁😁😁

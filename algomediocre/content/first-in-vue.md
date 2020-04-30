@@ -2,7 +2,7 @@
 title: "DFS, BFS, Whatever Bitches. "
 date: "2019-11-12"
 category: "FrontEnd"
-cover: ""
+cover:
 tags:
   - vue
 ---

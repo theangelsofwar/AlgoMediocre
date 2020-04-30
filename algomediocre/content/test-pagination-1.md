@@ -2,7 +2,7 @@
 title: "Testing your Patience"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: ""
+cover: /images/venice1.jpg
 tags:
   - test
 ---

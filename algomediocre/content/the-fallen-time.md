@@ -1,6 +1,6 @@
 ---
 title: "The Fallen Time"
-cover: ""
+cover:
 date: "2017-02-01"
 category: "another one"
 tags:

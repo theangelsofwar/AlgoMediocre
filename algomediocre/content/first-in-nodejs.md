@@ -2,7 +2,7 @@
 title: "First in NodeJS"
 date: "2019-11-10"
 category: "BackEnd"
-cover: ""
+cover:
 tags:
   - nodejs
   - javascript

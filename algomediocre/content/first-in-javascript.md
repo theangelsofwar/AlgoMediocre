@@ -2,7 +2,7 @@
 title: "First in JavaScript"
 date: "2019-11-11"
 category: "FrontEnd"
-cover: ""
+cover:
 tags:
   - javascript
   - becoming a machine

@@ -1,6 +1,6 @@
 ---
 title: "Bold Mage"
-cover: ""
+cover:
 date: "2017-01-01"
 category: "tech"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Random project 4 With Super Long Title Phase One"
-cover: ""
+cover: /images/venice1.jpg
 category: "random"
 date: "2017-03-02"
 tags:

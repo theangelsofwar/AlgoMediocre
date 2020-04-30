@@ -2,7 +2,7 @@
 title: "Test Pagination 6"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: ""
+cover:
 tags:
   - test
 ---

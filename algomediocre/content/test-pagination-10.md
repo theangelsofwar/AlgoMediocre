@@ -2,7 +2,7 @@
 title: "Testing your patience?"
 date: "2020-04-09"
 category: "FrontEnd"
-cover: ""
+cover:
 tags:
   - test
 ---

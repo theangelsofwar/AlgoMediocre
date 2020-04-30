@@ -1,6 +1,6 @@
 ---
 title: "Big Test"
-cover: ""
+cover:
 category: "moar"
 date: "2018-03-01"
 tags:
