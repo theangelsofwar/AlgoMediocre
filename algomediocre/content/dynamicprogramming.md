@@ -49,6 +49,33 @@ Max hits: 4
 
 
 Induction Hypothesis:
+1. Hypothesis(H0): Write down formula describing solution as a mixture of subproblems
+2. What is the base case- aim at getting the desired outcome result
+3. Build from non base cases, how did you get to the result - find the middle path. 
+  - this can be a mathematical relationship/pattern or series of case statements that could lead to the desired outcome
+
+  -in calculus, to get an optimization we take the first derivative for maxima/minima points
+  -in computer science/theory, we use bytes 010101 and data structures
+
+
+Dynamic Programming will usually still yield polynomial runtime based on dimensions(usage of a 2D grid, 3D grid, N-D grid....)
+
+
+My reasoning:
+Basically, you map out an an axis with time based on the altitudes of the missiles. At t=0 you start with the case of taking the hit on missles[i=0] and adding it to hits
+
+Draw an axis of t=time vs altitude. 
+It does not have to be a continuous trajectory. 
+
+As you traverse the array, and encounter a new element...
+
+Given space time tradeoffs, we can memoize the current hits at their existing altitudes in a separate array, and map that array with a value store of an array of [index, value=altitude]
+
+- to get the maximum number of its while launching a missile 
+
+- currently the order of the missle altitude is temporal based,
+
+This is basically longest, discontinuous increasig subsequence but for military. 
 
 ```js
 //not necessarily an ordered array
@@ -59,11 +86,30 @@ Induction Hypothesis:
 
 
 /**
-@param Enemy Missiles Array
-
-
+@param Enemy Missiles Altitudes Array
+@return number of hits 
 **/
+
+function missilesAltitudes(missiles) {
+  let result = 1; //take the first element
+  let missilePath = [];
+  missilePath.push([0, missiles[0]]);
+  // misslePath item is going to be: [index, altitudeOfMissle]
+  //so the parent altitude is the next highest 
+  for(let t = 1; t < missiles.length; t++) {
+    let altitude = missiles[i]; //altitude at time t=i after the launch of the target
+    if(missilePath[result-1][1]<altitude) {
+      missilePath.push([i, altitude]);
+      result++;
+    }
+
+  }
+  return result;
+}
 ```
+
+
+
 
 Interval does not need to be continuous
 - this is the same as longest increasing discontinuous subsequence
