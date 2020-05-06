@@ -11,11 +11,7 @@ tags:
 
 ## Sedisti civiliter
 
-Lorem **markdownum** Ixione palus **semper peritura barbaque** in aureus
-obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
-animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
-_Talibus ausis_.
+I createda graph distribution, a histogram and a normal distribution for frequencies among companies, industries and exact Leetcodes or Leet parallels.
 
 ## Vultusque subsequitur Pallas regis datis inde animaque
 

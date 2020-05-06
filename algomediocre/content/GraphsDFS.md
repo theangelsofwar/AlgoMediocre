@@ -495,6 +495,11 @@ var updateMatrix = function(matrix) {
 ```
 
 
+## Conclusion
+
+BFS: Shortest Paths, Graph Edges Shortest Paths, Maze Shortest Path Solving
+
+
 
 The future Internet, distrbuted among the "Humans." 
 
