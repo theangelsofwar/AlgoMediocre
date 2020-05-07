@@ -103,11 +103,15 @@ function missilesAltitudes(missiles) {
       // result++;
     }
 
-    for(let j=0; j<misslePath.length; j++){
-      let currentMissle = misslePath[j];
-      //do a cost benefits analysis of adding altitude
-      
+    let j = 0;
+    let current = misslePath[j];
+    let currentMissle = current[1];
+    while(currentMissle[0]<t) {
+      j++;
+      current = misslePath[j];
+      currentMissle = current[1];
     }
+      //do a cost benefits analysis of adding altitude
 
   }
   return misslePath.length;
