@@ -1,9 +1,10 @@
 {
-  "name": "papan-gatsby-starter",
+  "name": "algo-mediocre",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Algorithms Blog for the E-Leet",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://celestialdevelopment.github.io/AlgoMediocre/",
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
@@ -12,7 +13,7 @@
     "serve": "gatsby serve --prefix-paths",
     "lint": "eslint --ext .jsx,.js src/",
     "lint:fix": "npm run lint -- --fix",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -58,15 +59,15 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.18.2",
     "typescript": "^3.7.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/papan01/blog"
+    "url": "https://github.com/CelestialDevelopment/AlgoMediocre"
   },
   "bugs": {
-    "url": "https://github.com/papan01/blog/issues"
+    "url": "https://github.com/CelestialDevelopment/AlgoMediocre/issues"
   }
 }

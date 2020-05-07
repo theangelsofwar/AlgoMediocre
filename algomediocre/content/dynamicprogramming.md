@@ -91,20 +91,26 @@ This is basically longest, discontinuous increasig subsequence but for military.
 **/
 
 function missilesAltitudes(missiles) {
-  let result = 1; //take the first element
-  let missilePath = [];
+  //let result = 1; //take the first element
+  let missilePath = []; //this is a stack
   missilePath.push([0, missiles[0]]);
   // misslePath item is going to be: [index, altitudeOfMissle]
   //so the parent altitude is the next highest 
   for(let t = 1; t < missiles.length; t++) {
     let altitude = missiles[i]; //altitude at time t=i after the launch of the target
     if(missilePath[result-1][1]<altitude) {
-      missilePath.push([i, altitude]);
-      result++;
+      missilePath.push([i, altitude]); //we can take the current trajectory
+      // result++;
+    }
+
+    for(let j=0; j<misslePath.length; j++){
+      let currentMissle = misslePath[j];
+      //do a cost benefits analysis of adding altitude
+      
     }
 
   }
-  return result;
+  return misslePath.length;
 }
 ```
 
@@ -113,3 +119,7 @@ function missilesAltitudes(missiles) {
 
 Interval does not need to be continuous
 - this is the same as longest increasing discontinuous subsequence
+
+
+
+Idea: Create a Language Translator from different programming languages... highlight the differences that cannot be converted - eg transpile to readable other high level

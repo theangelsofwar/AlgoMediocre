@@ -7,7 +7,7 @@ const config = {
   siteDescription: 'A decentralized Algorithms, System Design Blog for the E-Leet', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/images/angel-lines.jpg', // Logo used for manifest.
   siteUrl: 'http://code-caine.io', // Domain of your website without pathPrefix.
-  pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: '/AlgoMediocre', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '', // FB Application ID for using app insights
   siteGATrackingID: '', // Tracking code ID for google analytics.
